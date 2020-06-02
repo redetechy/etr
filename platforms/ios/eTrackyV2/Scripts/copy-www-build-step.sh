@@ -40,6 +40,9 @@ if [[ ! -e "$SRC_DIR" ]]; then
   exit 2
 fi
 
+echo "DST_DIR_WWW is $DST_DIR_WWW"
+echo "SRC_DIR is $SRC_DIR"
+
 rm -rf "$DST_DIR_WWW"
 
 # Copy www dir recursively
