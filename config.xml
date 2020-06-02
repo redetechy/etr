@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.redetechnologies.eTrackyv2" version="3.15" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>eTracky v2</name>
+    <name>eTrackyV2</name>
     <description>
         eTracky V2
     </description>
@@ -18,39 +18,29 @@
     <preference name="ios-statusbarstyle" value="black-opaque" />
     <preference name="detect-data-types" value="true" />
     <preference name="exit-on-suspend" value="false" />
-
     <preference name="disable-cursor" value="false" />
-	<preference name="android-minSdkVersion" value="19" />
-    <!--<preference name="android-targetSdkVersion" value="28" />-->
+    <preference name="android-minSdkVersion" value="19" />
     <preference name="android-installLocation" value="auto" />
-
-	<preference name='phonegap-version' value='cli-9.0.0' />
-	<plugin name="cordova-plugin-device" source="npm" spec="~ 1.1.1" />
-	<plugin name="cordova-plugin-geolocation" source="npm" spec="~ 2.1.0" />
-	<plugin name="cordova-plugin-network-information" source="npm" spec="~ 1.2.0" />
-	
-	<icon src="icon.png"/>
-	<icon src="resources/android/icon/drawable-ldpi-icon.png" gap:platform="android" gap:qulifier="ldpi"/>
-	<icon src="resources/android/icon/drawable-mdpi-icon.png" gap:platform="android" gap:qualifier="mdpi"/>
-	<icon src="resources/android/icon/drawable-hdpi-icon.png" gap:platform="android" gap:qualifier="hdpi"/>
-	<icon src="resources/android/icon/drawable-xhdpi-icon.png" gap:platform="android" gap:qualifier="xhdpi"/>
-	<icon src="resources/android/icon/drawable-xxhdpi-icon.png" gap:platform="android" gap:qualifier="xxhdpi"/>
-	<icon src="resources/android/icon/drawable-xxxhdpi-icon.png" gap:platform="android" gap:qualifier="xxxhdpi"/>
-
+    <preference name="phonegap-version" value="cli-9.0.0" />
+    <icon src="icon.png" />
+    <icon gap:platform="android" gap:qulifier="ldpi" src="resources/android/icon/drawable-ldpi-icon.png" />
+    <icon gap:platform="android" gap:qualifier="mdpi" src="resources/android/icon/drawable-mdpi-icon.png" />
+    <icon gap:platform="android" gap:qualifier="hdpi" src="resources/android/icon/drawable-hdpi-icon.png" />
+    <icon gap:platform="android" gap:qualifier="xhdpi" src="resources/android/icon/drawable-xhdpi-icon.png" />
+    <icon gap:platform="android" gap:qualifier="xxhdpi" src="resources/android/icon/drawable-xxhdpi-icon.png" />
+    <icon gap:platform="android" gap:qualifier="xxxhdpi" src="resources/android/icon/drawable-xxxhdpi-icon.png" />
     <icon gap:platform="ios" height="57" src="resources/ios/icons/icon-57.png" width="57" />
-	<icon gap:platform="ios" height="60" src="resources/ios/icons/icon-60.png" width="60" />
+    <icon gap:platform="ios" height="60" src="resources/ios/icons/icon-60.png" width="60" />
     <icon gap:platform="ios" height="72" src="resources/ios/icons/icon-72.png" width="72" />
-	<icon gap:platform="ios" height="76" src="resources/ios/icons/icon-76.png" width="76" />
-	<icon gap:platform="ios" height="120" src="resources/ios/icons/icon-120.png" width="120" />
-	<icon gap:platform="ios" height="180" src="resources/ios/icons/icon-180.png" width="180" />
+    <icon gap:platform="ios" height="76" src="resources/ios/icons/icon-76.png" width="76" />
+    <icon gap:platform="ios" height="120" src="resources/ios/icons/icon-120.png" width="120" />
+    <icon gap:platform="ios" height="180" src="resources/ios/icons/icon-180.png" width="180" />
     <icon gap:platform="ios" height="114" src="resources/ios/icons/icon-114.png" width="114" />
     <icon gap:platform="ios" height="144" src="resources/ios/icons/icon-144.png" width="144" />
-	<icon gap:platform="ios" height="152" src="resources/ios/icons/icon-152.png" width="152" />
-
+    <icon gap:platform="ios" height="152" src="resources/ios/icons/icon-152.png" width="152" />
     <access origin="*" />
-    <plugin name="cordova-plugin-whitelist" version="1" />
     <allow-intent href="file://*/*" />
-	<allow-intent href="http://*/*" />
+    <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
     <allow-intent href="sms:*" />
@@ -58,13 +48,14 @@
     <allow-intent href="geo:*" />
     <platform name="android">
         <allow-intent href="market:*" />
-		<edit-config xmlns:android="http://schemas.android.com/apk/res/android" file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
-			<application android:networkSecurityConfig="@xml/network_security_config" />
-		</edit-config>
-		<resource-file src="network_security_config.xml" target="app/src/main/res/xml/network_security_config.xml" />
+        <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application" xmlns:android="http://schemas.android.com/apk/res/android">
+            <application android:networkSecurityConfig="@xml/network_security_config" />
+        </edit-config>
+        <resource-file src="network_security_config.xml" target="app/src/main/res/xml/network_security_config.xml" />
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
+    <plugin name="cordova-plugin-whitelist" spec="1" />
 </widget>

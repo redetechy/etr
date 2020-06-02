@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.redetechnologies.eTrackyv2" version="3.15" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <feature name="LocalStorage">
+        <param name="ios-package" value="CDVLocalStorage" />
+    </feature>
+    <feature name="Console">
+        <param name="ios-package" value="CDVLogger" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="HandleOpenUrl">
+        <param name="ios-package" value="CDVHandleOpenURL" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="IntentAndNavigationFilter">
+        <param name="ios-package" value="CDVIntentAndNavigationFilter" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="GestureHandler">
+        <param name="ios-package" value="CDVGestureHandler" />
+        <param name="onload" value="true" />
+    </feature>
+    <name>eTracky v2</name>
+    <description>
+        eTracky V2
+    </description>
+    <author email="support@gotracky.com" href="http://www.gotracky.com">
+        eTracky v2
+    </author>
+    <content src="index.html" />
+    <icon src="icon.png" />
+    <icon gap:platform="android" gap:qulifier="ldpi" src="resources/android/icon/drawable-ldpi-icon.png" />
+    <icon gap:platform="android" gap:qualifier="mdpi" src="resources/android/icon/drawable-mdpi-icon.png" />
+    <icon gap:platform="android" gap:qualifier="hdpi" src="resources/android/icon/drawable-hdpi-icon.png" />
+    <icon gap:platform="android" gap:qualifier="xhdpi" src="resources/android/icon/drawable-xhdpi-icon.png" />
+    <icon gap:platform="android" gap:qualifier="xxhdpi" src="resources/android/icon/drawable-xxhdpi-icon.png" />
+    <icon gap:platform="android" gap:qualifier="xxxhdpi" src="resources/android/icon/drawable-xxxhdpi-icon.png" />
+    <icon gap:platform="ios" height="57" src="resources/ios/icons/icon-57.png" width="57" />
+    <icon gap:platform="ios" height="60" src="resources/ios/icons/icon-60.png" width="60" />
+    <icon gap:platform="ios" height="72" src="resources/ios/icons/icon-72.png" width="72" />
+    <icon gap:platform="ios" height="76" src="resources/ios/icons/icon-76.png" width="76" />
+    <icon gap:platform="ios" height="120" src="resources/ios/icons/icon-120.png" width="120" />
+    <icon gap:platform="ios" height="180" src="resources/ios/icons/icon-180.png" width="180" />
+    <icon gap:platform="ios" height="114" src="resources/ios/icons/icon-114.png" width="114" />
+    <icon gap:platform="ios" height="144" src="resources/ios/icons/icon-144.png" width="144" />
+    <icon gap:platform="ios" height="152" src="resources/ios/icons/icon-152.png" width="152" />
+    <access origin="*" />
+    <allow-intent href="file://*/*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-intent href="itms:*" />
+    <allow-intent href="itms-apps:*" />
+    <preference name="AllowInlineMediaPlayback" value="false" />
+    <preference name="BackupWebStorage" value="cloud" />
+    <preference name="DisallowOverscroll" value="false" />
+    <preference name="EnableViewportScale" value="false" />
+    <preference name="KeyboardDisplayRequiresUserAction" value="true" />
+    <preference name="MediaPlaybackRequiresUserAction" value="false" />
+    <preference name="SuppressesIncrementalRendering" value="false" />
+    <preference name="SuppressesLongPressGesture" value="false" />
+    <preference name="Suppresses3DTouchGesture" value="false" />
+    <preference name="GapBetweenPages" value="0" />
+    <preference name="PageLength" value="0" />
+    <preference name="PaginationBreakingMode" value="page" />
+    <preference name="PaginationMode" value="unpaginated" />
+    <preference name="permissions" value="none" />
+    <preference name="orientation" value="default" />
+    <preference name="target-device" value="universal" />
+    <preference name="fullscreen" value="false" />
+    <preference name="webviewbounce" value="true" />
+    <preference name="prerendered-icon" value="true" />
+    <preference name="stay-in-webview" value="false" />
+    <preference name="ios-statusbarstyle" value="black-opaque" />
+    <preference name="detect-data-types" value="true" />
+    <preference name="exit-on-suspend" value="false" />
+    <preference name="disable-cursor" value="false" />
+    <preference name="android-minSdkVersion" value="19" />
+    <preference name="android-installLocation" value="auto" />
+    <preference name="phonegap-version" value="cli-9.0.0" />
+</widget>
