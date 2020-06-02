@@ -28,8 +28,6 @@
       "cordova-plugin-geolocation": {},
       "cordova-plugin-network-information": {}
     },
-    "platforms": [
-      "ios"
-    ]
+    "platforms": []
   }
 }
