@@ -1,61 +1,5 @@
-{
-  "prepare_queue": {
-    "installed": [],
-    "uninstalled": []
-  },
-  "config_munge": {
-    "files": {
-      "config.xml": {
-        "parents": {
-          "/*": [
-            {
-              "xml": "<feature name=\"Device\"><param name=\"ios-package\" value=\"CDVDevice\" /></feature>",
-              "count": 1
-            },
-            {
-              "xml": "<feature name=\"Geolocation\"><param name=\"ios-package\" value=\"CDVLocation\" /></feature>",
-              "count": 1
-            },
-            {
-              "xml": "<feature name=\"NetworkStatus\"><param name=\"ios-package\" value=\"CDVConnection\" /></feature>",
-              "count": 1
-            },
-            {
-              "xml": "<feature name=\"StatusBar\"><param name=\"ios-package\" value=\"CDVStatusBar\" /><param name=\"onload\" value=\"true\" /></feature>",
-              "count": 1
-            },
-            {
-              "xml": "<preference name=\"StatusBarOverlaysWebView\" value=\"true\" />",
-              "count": 1
-            },
-            {
-              "xml": "<preference name=\"StatusBarStyle\" value=\"lightcontent\" />",
-              "count": 1
-            }
-          ]
-        }
-      }
-    }
-  },
-  "installed_plugins": {
-    "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
-    },
-    "cordova-plugin-device": {
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
-    },
-    "cordova-plugin-geolocation": {
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
-    },
-    "cordova-plugin-network-information": {
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
-    },
-    "cordova-plugin-statusbar": {
-      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
-    }
-  },
-  "dependent_plugins": {},
-  "modules": [
+cordova.define('cordova/plugin_list', function(require, exports, module) {
+  module.exports = [
     {
       "id": "cordova-plugin-device.device",
       "file": "plugins/cordova-plugin-device/www/device.js",
@@ -121,12 +65,12 @@
         "window.StatusBar"
       ]
     }
-  ],
-  "plugin_metadata": {
+  ];
+  module.exports.metadata = {
     "cordova-plugin-whitelist": "1.3.4",
     "cordova-plugin-device": "2.0.3",
     "cordova-plugin-geolocation": "4.0.2",
     "cordova-plugin-network-information": "2.0.2",
     "cordova-plugin-statusbar": "2.4.3"
-  }
-}
+  };
+});
