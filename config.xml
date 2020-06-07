@@ -23,6 +23,7 @@
     <preference name="android-installLocation" value="auto" />
     <preference name="phonegap-version" value="cli-9.0.0" />
 	<preference name="StatusBarOverlaysWebView" value="false" />
+	<preference name="StatusBarBackgroundColor" value="#000000" />
 	<preference name="StatusBarStyle" value="lightcontent" />
 	<preference name="DisallowOverscroll" value="true"/>
     <icon src="icon.png" />
