@@ -26,6 +26,10 @@
 	<preference name="StatusBarBackgroundColor" value="#000000" />
 	<preference name="StatusBarStyle" value="lightcontent" />
 	<preference name="DisallowOverscroll" value="true"/>
+	<feature name="CDVWKWebViewEngine">
+		<param name="ios-package" value="CDVWKWebViewEngine" />
+	</feature>
+	<preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
     <icon src="icon.png" />
     <icon gap:platform="android" gap:qulifier="ldpi" src="resources/android/icon/drawable-ldpi-icon.png" />
     <icon gap:platform="android" gap:qualifier="mdpi" src="resources/android/icon/drawable-mdpi-icon.png" />

@@ -95,4 +95,8 @@
     <preference name="android-minSdkVersion" value="19" />
     <preference name="android-installLocation" value="auto" />
     <preference name="phonegap-version" value="cli-9.0.0" />
+    <feature name="CDVWKWebViewEngine">
+        <param name="ios-package" value="CDVWKWebViewEngine" />
+    </feature>
+    <preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
 </widget>

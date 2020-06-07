@@ -22,6 +22,10 @@
 		42E40C8FEEF945F59109E48B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08C793D9F8D74B19B6C5E724 /* SystemConfiguration.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		6436504DA13E4A87A57A2F29 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18897AC43A5D47938FC6C3FD /* CoreTelephony.framework */; };
 		FBB0FCACF5F74A6589B7383F /* CDVStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF6429541E4886BA0D164B /* CDVStatusBar.m */; };
+		B3C2C87CC6D546938E69D020 /* CDVWKWebViewEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = A00388247BA74AB8B7D471D1 /* CDVWKWebViewEngine.m */; };
+		52FA395E80F745009FEC5AEA /* CDVWKWebViewUIDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EA26DE930046FD8B37F399 /* CDVWKWebViewUIDelegate.m */; };
+		809ECC194AE0445A8B4E896C /* CDVWKProcessPoolFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A338C01AF0434B962B00EB /* CDVWKProcessPoolFactory.m */; };
+		DCE35B51B3134EC38287AE53 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9982ED1F415947B5BB492688 /* WebKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +86,13 @@
 		18897AC43A5D47938FC6C3FD /* CoreTelephony.framework */ = {isa = PBXFileReference; name = "CoreTelephony.framework"; path = "System/Library/Frameworks/CoreTelephony.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 		4ACF6429541E4886BA0D164B /* CDVStatusBar.m */ = {isa = PBXFileReference; name = "CDVStatusBar.m"; path = "cordova-plugin-statusbar/CDVStatusBar.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
 		B685FBEE2AB845E785AB10DA /* CDVStatusBar.h */ = {isa = PBXFileReference; name = "CDVStatusBar.h"; path = "cordova-plugin-statusbar/CDVStatusBar.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		A00388247BA74AB8B7D471D1 /* CDVWKWebViewEngine.m */ = {isa = PBXFileReference; name = "CDVWKWebViewEngine.m"; path = "cordova-plugin-wkwebview-engine/CDVWKWebViewEngine.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		48EA26DE930046FD8B37F399 /* CDVWKWebViewUIDelegate.m */ = {isa = PBXFileReference; name = "CDVWKWebViewUIDelegate.m"; path = "cordova-plugin-wkwebview-engine/CDVWKWebViewUIDelegate.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		57A338C01AF0434B962B00EB /* CDVWKProcessPoolFactory.m */ = {isa = PBXFileReference; name = "CDVWKProcessPoolFactory.m"; path = "cordova-plugin-wkwebview-engine/CDVWKProcessPoolFactory.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		586327133A7B4689BD7F8596 /* CDVWKWebViewEngine.h */ = {isa = PBXFileReference; name = "CDVWKWebViewEngine.h"; path = "cordova-plugin-wkwebview-engine/CDVWKWebViewEngine.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		D9CE180E59764D27A04BE1EB /* CDVWKWebViewUIDelegate.h */ = {isa = PBXFileReference; name = "CDVWKWebViewUIDelegate.h"; path = "cordova-plugin-wkwebview-engine/CDVWKWebViewUIDelegate.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		C540C89E2748433EAC5491F3 /* CDVWKProcessPoolFactory.h */ = {isa = PBXFileReference; name = "CDVWKProcessPoolFactory.h"; path = "cordova-plugin-wkwebview-engine/CDVWKProcessPoolFactory.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		9982ED1F415947B5BB492688 /* WebKit.framework */ = {isa = PBXFileReference; name = "WebKit.framework"; path = "System/Library/Frameworks/WebKit.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +104,7 @@
 				FEE6A54B8A6B41E69A8F6FAE /* CoreLocation.framework in Frameworks */,
 				42E40C8FEEF945F59109E48B /* SystemConfiguration.framework in Frameworks */,
 				6436504DA13E4A87A57A2F29 /* CoreTelephony.framework in Frameworks */,
+				DCE35B51B3134EC38287AE53 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +178,7 @@
 				D581E8BC21CD4A6A9DDB6B1E /* CoreLocation.framework */,
 				08C793D9F8D74B19B6C5E724 /* SystemConfiguration.framework */,
 				18897AC43A5D47938FC6C3FD /* CoreTelephony.framework */,
+				9982ED1F415947B5BB492688 /* WebKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -202,6 +215,12 @@
 				E758FABEDDAB43C9A206AF3A /* CDVReachability.h */,
 				4ACF6429541E4886BA0D164B /* CDVStatusBar.m */,
 				B685FBEE2AB845E785AB10DA /* CDVStatusBar.h */,
+				A00388247BA74AB8B7D471D1 /* CDVWKWebViewEngine.m */,
+				48EA26DE930046FD8B37F399 /* CDVWKWebViewUIDelegate.m */,
+				57A338C01AF0434B962B00EB /* CDVWKProcessPoolFactory.m */,
+				586327133A7B4689BD7F8596 /* CDVWKWebViewEngine.h */,
+				D9CE180E59764D27A04BE1EB /* CDVWKWebViewUIDelegate.h */,
+				C540C89E2748433EAC5491F3 /* CDVWKProcessPoolFactory.h */,
 			);
 			name = Plugins;
 			path = "eTrackyV2/Plugins";
@@ -331,6 +350,9 @@
 				72E2BD12DD694CC18272A3EB /* CDVConnection.m in Sources */,
 				144822852B014EB38747421A /* CDVReachability.m in Sources */,
 				FBB0FCACF5F74A6589B7383F /* CDVStatusBar.m in Sources */,
+				B3C2C87CC6D546938E69D020 /* CDVWKWebViewEngine.m in Sources */,
+				52FA395E80F745009FEC5AEA /* CDVWKWebViewUIDelegate.m in Sources */,
+				809ECC194AE0445A8B4E896C /* CDVWKProcessPoolFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
