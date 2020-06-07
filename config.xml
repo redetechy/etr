@@ -22,6 +22,9 @@
     <preference name="android-minSdkVersion" value="19" />
     <preference name="android-installLocation" value="auto" />
     <preference name="phonegap-version" value="cli-9.0.0" />
+	<preference name="StatusBarOverlaysWebView" value="true" />
+	<preference name="StatusBarStyle" value="lightcontent" />
+	<preference name="DisallowOverscroll" value="true"/>
     <icon src="icon.png" />
     <icon gap:platform="android" gap:qulifier="ldpi" src="resources/android/icon/drawable-ldpi-icon.png" />
     <icon gap:platform="android" gap:qualifier="mdpi" src="resources/android/icon/drawable-mdpi-icon.png" />
