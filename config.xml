@@ -33,7 +33,9 @@
     <icon gap:platform="android" gap:qualifier="xhdpi" src="resources/android/icon/drawable-xhdpi-icon.png" />
     <icon gap:platform="android" gap:qualifier="xxhdpi" src="resources/android/icon/drawable-xxhdpi-icon.png" />
     <icon gap:platform="android" gap:qualifier="xxxhdpi" src="resources/android/icon/drawable-xxxhdpi-icon.png" />
-    <icon gap:platform="ios" height="57" src="resources/ios/icons/icon-57.png" width="57" />
+    <icon gap:platform="ios" height="20" src="resources/ios/icons/icon-20.png" width="20" />
+	<icon gap:platform="ios" height="40" src="resources/ios/icons/icon-40.png" width="40" />
+	<icon gap:platform="ios" height="57" src="resources/ios/icons/icon-57.png" width="57" />
     <icon gap:platform="ios" height="60" src="resources/ios/icons/icon-60.png" width="60" />
     <icon gap:platform="ios" height="72" src="resources/ios/icons/icon-72.png" width="72" />
     <icon gap:platform="ios" height="76" src="resources/ios/icons/icon-76.png" width="76" />
