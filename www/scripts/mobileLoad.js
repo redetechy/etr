@@ -15,7 +15,13 @@ if (typeof window !== 'undefined' && !window.onerror) {
 		console.log(column);
 		console.log(errorObj);
 		try {
-			showLoadingError("Unhandled Error - " + errorMsg);
+			var lhasLoadingError = localStorage.getItem('hasLoadingError');
+			if (lhasLoadingError == undefined) {
+				localStorage.setItem('hasLoadingError', "Y");
+				setTimeout(function(){ window.location.reload(); }, 3000);
+			} else {
+				showLoadingError("Unhandled Error - " + errorMsg);
+			}
 		} catch(err) {
 			alert("Error in setting Loading Message " + err);
 		}
@@ -363,6 +369,7 @@ function loadJSCSSServerFiles(mobileJsonObj, newVersion, oldVersion) {
 				console.log("updating version in localStorage");
 				localStorage.setItem('version', newVersion);
 				localStorage.setItem('mobileJson', JSON.stringify(mobileJsonObj));
+				localStorage.removeItem('hasLoadingError');
 			} catch(err) {
 				console.log("in catch..");
 				console.log(err);
