@@ -1,0 +1,111 @@
+.grid-m-vehicle {
+	content: url('assets/images/grid-menu-icons/brilliantBlue/m_vehicleMap.svg');
+}
+
+.grid-m-vehicle : after {
+	content: url('assets/images/grid-menu-icons/brilliantBlue/m_vehicleMap.svg');
+}
+
+.grid-m-group {
+	content: url('assets/images/grid-menu-icons/brilliantBlue/m_fleetMap.svg');
+}
+
+.grid-r-detail {
+	content: url('assets/images/grid-menu-icons/brilliantBlue/r_detailedReport.svg');
+}
+
+.grid-r-summary {
+	content: url('assets/images/grid-menu-icons/brilliantBlue/r_groupSummaryReport.svg');
+}
+
+.grid-r-performance{
+	content: url('assets/images/grid-menu-icons/brilliantBlue/r_performanceReport.svg');
+}
+
+.grid-r-devicePerformanceReport {
+	content: url('assets/images/grid-menu-icons/brilliantBlue/r_performanceReport.svg');
+}
+
+.grid-r-driverPerformanceReport {
+	content: url('assets/images/grid-menu-icons/brilliantBlue/r_driverPerformanceReport.svg');
+}
+
+.grid-r-distance {
+	content: url('assets/images/grid-menu-icons/brilliantBlue/r_distanceReport.svg');
+}
+
+.grid-r-ignition {
+	content: url('assets/images/grid-menu-icons/brilliantBlue/r_ignitionReport.svg');
+}
+
+.grid-r-geozone {
+	content: url('assets/images/grid-menu-icons/brilliantBlue/r_geozoneReport.svg');
+}
+
+.grid-r-ac {
+	content: url('assets/images/grid-menu-icons/brilliantBlue/r_acReport.svg');
+}
+
+.grid-r-alertReport {
+	content: url('assets/images/grid-menu-icons/brilliantBlue/r_alertReport.svg');
+}
+
+.grid-r-deviceMsg {
+	content: url('assets/images/grid-menu-icons/brilliantBlue/r_deviceMessageReport.svg');
+}
+
+.grid-c-speed {
+	content: url('assets/images/grid-menu-icons/brilliantBlue/c_speedChart.svg');
+}
+
+.grid-c-fuel {
+	content: url('assets/images/grid-menu-icons/brilliantBlue/c_fuelChart.svg');
+}
+
+.grid-c-temperature {
+	content: url('assets/images/grid-menu-icons/brilliantBlue/c_temperatureChart.svg');
+}
+
+.grid-a-account {
+	content: url('assets/images/grid-menu-icons/brilliantBlue/a_accountAdmin.svg');
+}
+
+.grid-a-user {
+	content: url('assets/images/grid-menu-icons/brilliantBlue/a_userAdmin.svg');
+}
+
+.grid-a-vehicle {
+	content: url('assets/images/grid-menu-icons/brilliantBlue/a_vehicleAdmin.svg');
+}
+
+.grid-group {
+	content: url('assets/images/grid-menu-icons/brilliantBlue/a_vehicleGroupAdmin.svg');
+}
+
+.grid-a-driver {
+	content: url('assets/images/grid-menu-icons/brilliantBlue/a_driverAdmin.svg');
+}
+
+.grid-a-vehicleMaintenance {
+	content: url('assets/images/grid-menu-icons/brilliantBlue/a_maintenanceAdmin.svg');
+}
+
+.grid-a-vehicleService {
+	content: url('assets/images/grid-menu-icons/brilliantBlue/a_serviceAdmin.svg');
+}
+
+.grid-a-alert {
+	content: url('assets/images/grid-menu-icons/brilliantBlue/a_alertAdmin.svg');
+}
+
+.grid-a-geozone {
+	content: url('assets/images/grid-menu-icons/brilliantBlue/a_geozoneAdmin.svg');
+}
+
+.grid-a-geoRoute {
+	content: url('assets/images/grid-menu-icons/brilliantBlue/a_georouteAdmin.svg');
+}
+
+.grid-a-alertsTemplate{
+	content: url('assets/images/grid-menu-icons/brilliantBlue/a_alertsTemplateAdmin.svg');
+}

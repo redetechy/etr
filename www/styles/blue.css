@@ -1,0 +1,154 @@
+.header_color{
+	background-color: #01579b !important;
+}
+
+.table_header_bg_color{
+	background-color: #0277bd !important;
+}
+.table_header_color{
+	color: #ffffff;
+}
+.table_header_light_bg_color{
+	background-color: #d4ecff;
+}
+
+.selected_color{
+	color: #01579b !important;
+}
+.selected_color:hover{
+	color: #01579b !important;
+}
+.unselected_color{
+	color: #9e9e9e;
+}
+.unselected_color:hover, .unselected_color:focus{
+	color: #01579b;
+}
+
+.themeBorderColor{
+	border-color: #01579b !important;
+}
+
+.menu_icon_selected_color{
+	color: #01579b;
+}
+.menu_icon_color{
+	color: #01579b;
+}
+.menu_icon_color:hover{
+	color: #01579b;
+}
+.menu_group_color{
+	background-color: #eeeeee;
+}
+.menu_over_color:hover{
+	background-color: #b3e5fc;
+}
+
+
+/*  table row colors  */
+
+.table-row-color:nth-of-type(odd){
+	background-color: #f5f5f5 !important;
+}
+.table-row-color:nth-of-type(even){
+	background-color: #ffffff !important;
+}
+
+/*  table row colors end */
+
+
+.footer_color{
+	background-color: #01579b !important;
+}
+.map_bubble_color{
+	background-color: #01579b;
+}
+
+
+
+.colorTheme{
+	color: #01579b;
+}
+.colorTheme:hover{
+	color: #01579b;
+}
+.bgColorTheme{
+	background-color: #01579b !important;
+}
+.bgColorTheme:hover{
+	background-color: #01579b;
+}
+.blackIcons:hover{
+	color: #01579b !important;
+}
+
+
+/* Menu */
+
+
+
+.menu_icon_color li>a>.pull-right{
+	color: #01579b !important;
+}
+.menu_icon_color li>a:hover>.pull-right{
+	color: #01579b !important;
+}
+.menu_icon_color>li:hover>a, .menu_icon_color>li.active>a{
+	background-color: #f3f3f3 !important;
+}
+
+
+.menu_icon_color .treeview-menu>li>a:hover{
+	opacity: 1;
+	background-color: #f3d4d5 !important;
+}
+.menu_icon_color .treeview-menu>li>a.mySubSelect{
+	opacity: 1;
+	background-color: #f3d4d5 !important;
+}
+.menu_icon_color .treeview-menu > li > a:hover{
+	background-color: #b3e5fc !important;
+}
+
+.menu_icon_color a>span{
+	color: #333;
+}
+.menu_icon_color > li > .treeview-menu{
+	background: #fff !important;
+}
+.menu_icon_color .treeview-menu>li>a{
+	color: #333 !important;
+	background-color: #fff !important;
+}
+
+
+
+
+.custom_placeholder_color::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #01579b !important;
+}
+.custom_placeholder_color::-moz-placeholder { /* Firefox 19+ */
+  color: #01579b !important;
+}
+.custom_placeholder_color:-ms-input-placeholder { /* IE 10+ */
+  color: #01579b !important;
+}
+.custom_placeholder_color:-moz-placeholder { /* Firefox 18- */
+  color: #01579b !important;
+}
+
+
+.unselected_color path{
+	fill: #9e9e9e !important;
+}
+.unselected_color:hover path{
+	fill: #01579b !important;
+}
+.selected_color path{
+	fill: #01579b !important;
+}
+
+.fix_table_header_bg_color{
+	background-color: rgba(1, 87, 155, 0.3) !important;
+}

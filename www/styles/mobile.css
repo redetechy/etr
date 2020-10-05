@@ -1,0 +1,24 @@
+/* Style for Mobile App, to set the background-image */
+.loginBg{
+background-image:url(assets/images/loginBg.jpg);
+}
+.search-box-maps{
+background-image:url(assets/images/round-search-.svg);
+}
+label[for=statusActive],
+label[for=statusInactive],
+label[for=allDayActive],
+label[for=allDayInactive],
+label[for=everydayActive],
+label[for=everydayInactive] {
+	background-image: url(assets/images/slider-icon.png);
+}
+.select2-container .select2-choice .select2-arrow b {
+	background: url(assets/images/select2.png) no-repeat 0 1px!important
+}
+label[for=smsActive],
+label[for=smsInactive] {
+	background-image: url(assets/images/slider-icon.png);
+}
+
+
