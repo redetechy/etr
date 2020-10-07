@@ -50,8 +50,16 @@
 	<script src="scripts/map/utils.js?_v=2.1.117" type="text/javascript"></script>
 	<script src="scripts/map/jsmap.js?_v=2.1.117" type="text/javascript"></script>
 	<script src="scripts/map/Calendar.js?_v=2.1.117" type="text/javascript"></script>
+	<script>
+		function onMobileLoad() {
+			if(!window.localStorage.getItem('__isFirstAppLoad')) {
+				window.localStorage.setItem('__isFirstAppLoad', 'false');
+				setTimeout(function(){ window.location.reload(); }, 5000);
+			}
+		}
+	</script>
 </head>
-<body class="hold-transition skin-blue sidebar-mini sidebar-collapse">
+<body class="hold-transition skin-blue sidebar-mini sidebar-collapse" onload="onMobileLoad()">
 <div ui-view="" layout="row" layout-fill=""></div>
 </body>
 </html>
