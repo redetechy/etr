@@ -342,7 +342,8 @@ function addBaseHrefToIconUrl(iconUrl) {
 	if (iconUrl) {
 		if (iconUrl.indexOf("Marker?") == -1) {			
 			var iUrl = MAP_IMAGE_URL + "/" + iconUrl;
-			if (location.protocol == "file:") {
+			//if (location.protocol == "file:") {
+			if ((location.protocol == "file:") || (typeof isMobileApp != 'undefined' && isMobileApp == true) ) {	
 				if ((typeof mobileBaseUrl != 'undefined') && (typeof mobilePath != 'undefined') ) {
 					iUrl = mobileBaseUrl + "/" + mobilePath + "/" + MAP_IMAGE_URL + iconUrl;
 				} else {
