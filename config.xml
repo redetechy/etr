@@ -73,5 +73,6 @@
         <allow-intent href="itms-apps:*" />
     </platform>
     <plugin name="cordova-plugin-whitelist" spec="1" />
+	<plugin name="urijs"/>
 	<plugin name="cordova-plugin-local-webserver"/>
 </widget>
