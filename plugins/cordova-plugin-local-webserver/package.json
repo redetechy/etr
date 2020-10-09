@@ -1,0 +1,62 @@
+{
+  "_from": "cordova-plugin-local-webserver",
+  "_id": "cordova-plugin-local-webserver@2.3.1",
+  "_inBundle": false,
+  "_integrity": "sha512-2+NBm3LG/5lO80QAWZtlAlzHFohF4tzbSlKiyyp6tYaH3FWEULvUGPquA7i6KtjJwuT++IdS/1VCuPwSrTWZ/Q==",
+  "_location": "/cordova-plugin-local-webserver",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-local-webserver",
+    "name": "cordova-plugin-local-webserver",
+    "escapedName": "cordova-plugin-local-webserver",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-local-webserver/-/cordova-plugin-local-webserver-2.3.1.tgz",
+  "_shasum": "4a8c4f0de6f362f02b2d66333b190638f044a96c",
+  "_spec": "cordova-plugin-local-webserver",
+  "_where": "D:\\Official\\GoTracky\\Project\\GitHub\\etr",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/Collaborne/cordova-plugins/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-local-webserver",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "dependencies": {
+    "urijs": "^1.17.1"
+  },
+  "deprecated": false,
+  "description": "Cordova Local Web Server Plugin",
+  "engines": [
+    {
+      "name": "cordova-ios",
+      "version": ">=4.0.0-dev"
+    }
+  ],
+  "homepage": "https://github.com/Collaborne/cordova-plugins#readme",
+  "keywords": [
+    "cordova",
+    "local web server",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "license": "Apache-2.0",
+  "name": "cordova-plugin-local-webserver",
+  "repository": {
+    "type": "git",
+    "url": "git+https://speige/cordova-plugin-local-webserver.git"
+  },
+  "version": "2.3.1"
+}
