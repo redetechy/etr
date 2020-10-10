@@ -39,10 +39,10 @@
     "is_top_level": false,
     "variables": {}
   },
-  "cordova-plugin-wkwebview-cookie-sync": {
+  "cordova-plugin-wkwebview-sync-cookies": {
     "source": {
       "type": "registry",
-      "id": "cordova-plugin-wkwebview-cookie-sync"
+      "id": "cordova-plugin-wkwebview-sync-cookies"
     },
     "is_top_level": true,
     "variables": {}

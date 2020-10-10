@@ -255,9 +255,9 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
       "runs": true
     },
     {
-      "id": "cordova-plugin-wkwebview-cookie-sync.cookiesync",
-      "file": "plugins/cordova-plugin-wkwebview-cookie-sync/www/cookiesync.js",
-      "pluginId": "cordova-plugin-wkwebview-cookie-sync",
+      "id": "cordova-plugin-wkwebview-sync-cookies.cookiesync",
+      "file": "plugins/cordova-plugin-wkwebview-sync-cookies/www/cookiesync.js",
+      "pluginId": "cordova-plugin-wkwebview-sync-cookies",
       "clobbers": [
         "wkWebView"
       ]
@@ -272,6 +272,6 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
     "cordova-plugin-wkwebview-engine": "1.2.1",
     "cordova-plugin-file": "6.0.2",
     "cordova-plugin-local-webserver": "2.4.0",
-    "cordova-plugin-wkwebview-cookie-sync": "1.1.4"
+    "cordova-plugin-wkwebview-sync-cookies": "1.0.0"
   };
 });

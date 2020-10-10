@@ -28,7 +28,7 @@
     "cordova-plugin-local-webserver": {
       "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
     },
-    "cordova-plugin-wkwebview-cookie-sync": {
+    "cordova-plugin-wkwebview-sync-cookies": {
       "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
     }
   },

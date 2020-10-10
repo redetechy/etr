@@ -45,7 +45,7 @@
 		28690960F7704A81A83D528C /* GCDWebServerStreamedResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAF0DC286BD4CAD8C36C838 /* GCDWebServerStreamedResponse.m */; };
 		3F6773DAFED24C878D3731A6 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8137BDC387ED45C9B8E96D8C /* CFNetwork.framework */; };
 		69A1813DDBC24228B11B52E1 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E3CB7BF8ED3045F684DF3D7D /* libz.dylib */; };
-		AE7C553258C642B8B160164B /* WKWebViewCookieSync.m in Sources */ = {isa = PBXBuildFile; fileRef = 458DE03275D04254AF29B26E /* WKWebViewCookieSync.m */; };
+		198277433B324877A1968C3C /* WKWebViewSyncCookies.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0BBE5528B94296AE2081F0 /* WKWebViewSyncCookies.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -151,8 +151,8 @@
 		DD0FB279B94E49F5800218F9 /* GCDWebServerStreamedResponse.h */ = {isa = PBXFileReference; name = "GCDWebServerStreamedResponse.h"; path = "cordova-plugin-local-webserver/GCDWebServerStreamedResponse.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 		8137BDC387ED45C9B8E96D8C /* CFNetwork.framework */ = {isa = PBXFileReference; name = "CFNetwork.framework"; path = "System/Library/Frameworks/CFNetwork.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 		E3CB7BF8ED3045F684DF3D7D /* libz.dylib */ = {isa = PBXFileReference; name = "libz.dylib"; path = "usr/lib/libz.dylib"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = compiled.mach-o.dylib; explicitFileType = undefined; includeInIndex = 0; };
-		458DE03275D04254AF29B26E /* WKWebViewCookieSync.m */ = {isa = PBXFileReference; name = "WKWebViewCookieSync.m"; path = "cordova-plugin-wkwebview-cookie-sync/WKWebViewCookieSync.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		BE67C921F2154FDCAFFECC2E /* WKWebViewCookieSync.h */ = {isa = PBXFileReference; name = "WKWebViewCookieSync.h"; path = "cordova-plugin-wkwebview-cookie-sync/WKWebViewCookieSync.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		EC0BBE5528B94296AE2081F0 /* WKWebViewSyncCookies.m */ = {isa = PBXFileReference; name = "WKWebViewSyncCookies.m"; path = "cordova-plugin-wkwebview-sync-cookies/WKWebViewSyncCookies.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		CB6E707AE7D24314855D482A /* WKWebViewSyncCookies.h */ = {isa = PBXFileReference; name = "WKWebViewSyncCookies.h"; path = "cordova-plugin-wkwebview-sync-cookies/WKWebViewSyncCookies.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -321,8 +321,8 @@
 				A9D4160B104E4CF18315B944 /* GCDWebServerErrorResponse.h */,
 				C7C3DC0929844514B6524DB7 /* GCDWebServerFileResponse.h */,
 				DD0FB279B94E49F5800218F9 /* GCDWebServerStreamedResponse.h */,
-				458DE03275D04254AF29B26E /* WKWebViewCookieSync.m */,
-				BE67C921F2154FDCAFFECC2E /* WKWebViewCookieSync.h */,
+				EC0BBE5528B94296AE2081F0 /* WKWebViewSyncCookies.m */,
+				CB6E707AE7D24314855D482A /* WKWebViewSyncCookies.h */,
 			);
 			name = Plugins;
 			path = "eTrackyV2/Plugins";
@@ -472,7 +472,7 @@
 				3463B1BDC07A45A79874AB17 /* GCDWebServerErrorResponse.m in Sources */,
 				F029B06E16094F8BA96ADD83 /* GCDWebServerFileResponse.m in Sources */,
 				28690960F7704A81A83D528C /* GCDWebServerStreamedResponse.m in Sources */,
-				AE7C553258C642B8B160164B /* WKWebViewCookieSync.m in Sources */,
+				198277433B324877A1968C3C /* WKWebViewSyncCookies.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

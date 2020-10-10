@@ -60,7 +60,6 @@
 				alert("1");
 				const args = ['GET', 'https://track.etracky.com/api/Track?page=AUTHENTICATE&json=1'];
 				cordova.exec(null, null, 'WKWebViewSyncCookies', 'sync', args);
-				//wkwebview.injectCookie('track.etracky.com/api/Track?page=AUTHENTICATE&json=1');
 			} catch(err) {
 				alert(err);
 			}

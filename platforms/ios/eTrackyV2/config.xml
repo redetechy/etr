@@ -110,7 +110,7 @@
     <preference name="CordovaLocalWebServerStartOnSimulator" value="true" />
     <access origin="http://localhost" />
     <allow-navigation href="http://localhost:*/*" />
-    <feature name="WKWebViewCookieSync">
-        <param name="ios-package" value="WKWebViewCookieSync" />
+    <feature name="WKWebViewSyncCookies">
+        <param name="ios-package" value="WKWebViewSyncCookies" />
     </feature>
 </widget>
