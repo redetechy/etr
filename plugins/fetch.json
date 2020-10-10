@@ -38,5 +38,13 @@
     },
     "is_top_level": false,
     "variables": {}
+  },
+  "cordova-plugin-wkwebview-cookie-sync": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-wkwebview-cookie-sync"
+    },
+    "is_top_level": true,
+    "variables": {}
   }
 }

@@ -17,6 +17,7 @@
     "cordova-plugin-file": "^6.0.2",
     "cordova-plugin-local-webserver": "^2.3.1",
     "cordova-plugin-statusbar": "^2.4.3",
+    "cordova-plugin-wkwebview-cookie-sync": "^1.1.4",
     "cordova-plugin-wkwebview-engine": "^1.2.1"
   },
   "devDependencies": {
@@ -27,7 +28,8 @@
       "cordova-plugin-whitelist": {},
       "cordova-plugin-statusbar": {},
       "cordova-plugin-wkwebview-engine": {},
-      "cordova-plugin-local-webserver": {}
+      "cordova-plugin-local-webserver": {},
+      "cordova-plugin-wkwebview-cookie-sync": {}
     },
     "platforms": []
   }
