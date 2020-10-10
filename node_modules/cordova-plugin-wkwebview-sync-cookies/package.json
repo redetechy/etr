@@ -1,0 +1,76 @@
+{
+  "_from": "cordova-plugin-wkwebview-sync-cookies",
+  "_id": "cordova-plugin-wkwebview-sync-cookies@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-NqxGLWLFNFaokHlx7crU+Cd2rawhs2gtR9k61VUNwTbrXgR2pjZGMkIKnqDrc5j1u1z+hognsaLJ9da6Bd4x4Q==",
+  "_location": "/cordova-plugin-wkwebview-sync-cookies",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-wkwebview-sync-cookies",
+    "name": "cordova-plugin-wkwebview-sync-cookies",
+    "escapedName": "cordova-plugin-wkwebview-sync-cookies",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-wkwebview-sync-cookies/-/cordova-plugin-wkwebview-sync-cookies-1.0.2.tgz",
+  "_shasum": "5022d4e35cc215dde27c7fb61df1464d89483d7e",
+  "_spec": "cordova-plugin-wkwebview-sync-cookies",
+  "_where": "D:\\Official\\GoTracky\\Project\\GitHub\\etr",
+  "author": {
+    "name": "Dennis Torres",
+    "email": "djtorres0@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/psirenny/cordova-plugin-wkwebview-sync-cookies/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-wkwebview-sync-cookies",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova plugin to sync cookies in a WKWebView",
+  "devDependencies": {
+    "fixpack": "2.3.1",
+    "husky": "0.14.3",
+    "npm-run-all": "4.1.1",
+    "nsp": "2.8.1",
+    "standard-version": "4.2.0",
+    "validate-commit-msg": "2.14.0"
+  },
+  "homepage": "https://github.com/psirenny/cordova-plugin-wkwebview-sync-cookies#readme",
+  "keywords": [
+    "cookies",
+    "cordova",
+    "ecosystem:cordova",
+    "first",
+    "get",
+    "init",
+    "install",
+    "plugin",
+    "sync",
+    "wkwebview"
+  ],
+  "license": "Unlicense",
+  "main": "index.js",
+  "name": "cordova-plugin-wkwebview-sync-cookies",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psirenny/cordova-plugin-wkwebview-sync-cookies.git"
+  },
+  "scripts": {
+    "check": "npm-run-all --parallel audit fixpack",
+    "commitmsg": "validate-commit-msg",
+    "fixpack": "fixpack"
+  },
+  "version": "1.0.2"
+}
