@@ -56,8 +56,12 @@
 			alert(window.location.href);
 		}
 		document.addEventListener('deviceready', () => {
-			alert("1");
-			wkwebview.injectCookie('track.etracky.com/api/Track?page=AUTHENTICATE&json=1');
+			try {
+				alert("1");
+				wkwebview.injectCookie('track.etracky.com/api/Track?page=AUTHENTICATE&json=1');
+			} catch(err) {
+				alert(err);
+			}
 		});
 
 	</script>
